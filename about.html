@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <title>Products | Emart</title>
+
+    <!-- CSS Bundle -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Font Awesome -->
+
+    <script src="https://kit.fontawesome.com/068d8f19b0.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo" width="115px"></a>
+            </div>
+
+            <nav>
+                <ul id="MI">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" alt="cart" class="cart"></a>
+            <img src="images/menu.png" alt="menu" class="menu-icon" onclick="mt()">
+        </div>
+
+    </div>
+    <!-- End Navigation -->
+
+    <!-- Content -->
+
+    <div class="account-p">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/img-2.png" width="100%">
+                </div>
+
+                <div class="col-2">
+                    <h1  class="title" style="text-align: center;">About Us</h1>
+                    <p style="text-align: center; font-size:medium; font-weight:bold;">
+                        Welcome to emart, your number one source for all things.
+                        We're dedicated to providing you the very best of
+                        clothes, with an emphasis on quality, style, design.
+                    </p>
+
+                    <br>
+
+                    <p style="text-align: center; font-size:medium; font-weight:bold;">Founded in 2021 by <span style="color:red; text-decoration:underline" >Suryakant Thakur</span> , emart has come a long way from its beginnings in Feburary. 
+                    When <span style="color:red; text-decoration:underline">Vikash Kumar Ram</span>
+                    first started out, Their passion for making cheap and eco-friendly product drove them
+                    to start their own business. </p><br>
+
+                    <p style="text-align: center; font-size:medium; font-weight:bold;">We hope you enjoy our products as much as we enjoy offering them to you. If you have any
+                    questions or comments, please
+                    don't hesitate to contact us.</p>
+                    <br>
+                    <p style="text-align: right; color:red; font-size:medium; font-weight:bold;">Sincerely,<br>
+                    Team emart</p>
+                        
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download our app for Android and ios devices</p>
+                    <div class="app-logo">
+                        <a href="http://"><img src="images/play-store.png"></a>
+                        <a href="http://"> <img src="images/app-store.png"></a>
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <h2><em><a href="index.html" style="color: red; font-family:cursive;">Emart</a></em></h2>
+                    <p>Our purpose is to provide
+                        you the best<br> possible experience and services.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Link</h3>
+                    <ul>
+                        <li><a href="http://">Vouchers</a></li>
+                        <li><a href="http://">Blog</a></li>
+                        <li><a href="http://">Contact Us</a></li>
+                        <li><a href="http://">Return Policy</a></li>
+                        <li><a href="http://">Affliations</a></li>
+                    </ul>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="http://">Facebook</a></li>
+                        <li><a href="http://">Twitter</a></li>
+                        <li><a href="http://">Instagram</a></li>
+                        <li><a href="http://">Twitch</a></li>
+                        <li><a href="http://">Youtube</a></li>
+                    </ul>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2021 - Emart</p>
+            <p class="copyright">Made with <i class="fas fa-heart" style="color: red "></i> by Suryakant Thakur | Vikash
+                Kumar Ram </p>
+        </div>
+    </div>
+
+    <!-- js -->
+
+    <script>
+
+        var MI = document.getElementById("MI");
+        MI.style.maxHeight = "0px";
+
+        function mt() {
+            if (MI.style.maxHeight == "0px") {
+                MI.style.maxHeight = "200px";
+            }
+            else {
+                MI.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
